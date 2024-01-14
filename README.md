@@ -2,11 +2,11 @@
 this course only touch the iceberg of DSA.
 
 ### Resursion
-###### fibonacci sequence function with loop and recursive 
+#### fibonacci sequence function with loop and recursive 
 methods return fib sequence for given number
 - console.log-(fibRec(10));// [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
-###### Mergesort
+#### Mergesort
 sort unsorted array 
 - console.log(mergeSort([2, 1, 3, 5, 7, 4, 6, 10, 8, 9])); // Outputs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
