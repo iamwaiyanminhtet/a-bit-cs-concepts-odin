@@ -32,3 +32,27 @@ console.log(link.find(1)); // return node of 1
 console.log(link.toString()); // return string : 1 -> 2 -> null
 ```
 
+### Hash Map
+idk if I'm doing right tho, need to check later when I have time to learn this thoroughly. 
+```javascript
+let hashMap = new HashMap(16);
+hashMap.set('batman' ,'bruce wayne');
+hashMap.set('flash' ,'barry allen');
+hashMap.set('flash' ,'barry allen');
+hashMap.set('wonder woman' ,'diana of the smth');
+hashMap.set('aquaman' ,'arthur curry');
+hashMap.set('superman' ,'clark kent');
+hashMap.set('cyborg' ,'victor stone');
+console.log(hashMap);
+console.log(hashMap.get('cyborg'));
+console.log(hashMap.remove('batman')) // you can't remove cuz he is batman.
+console.log(hashMap.has('batman')) // jk, batman has been removed // false
+console.log(hashMap.length()); // 5
+hashMap.set('batman' ,'bruce wayne');
+hashMap.set('batman' ,'thomas wayne');
+console.log(hashMap.keys()); // ['wonder woman', 'aquaman', 'cyborg', 'superman', 'batman', 'flash']
+console.log(hashMap.values()); // ['diana of the smth', 'arthur curry', 'victor stone', 'clark kent', 'bruce wayne', 'thomas wayne', 'bruce wayne', 'thomas waynebarry allen', 'barry allen']
+console.log(hashMap.entries()) // [[key,value],[key,value],...]
+console.log(hashMap.clear()); // clear array
+```
+*need to fix resize when it's about to hit capacity later*
