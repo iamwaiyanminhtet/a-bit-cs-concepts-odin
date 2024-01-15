@@ -275,6 +275,7 @@ class Node {
   }
   
   let hashMap = new HashMap(16);
+
   hashMap.set('batman' ,'bruce wayne');
   hashMap.set('flash' ,'barry allen');
   hashMap.set('flash' ,'barry allen');
