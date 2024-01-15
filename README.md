@@ -56,3 +56,6 @@ console.log(hashMap.entries()) // [[key,value],[key,value],...]
 console.log(hashMap.clear()); // clear array
 ```
 *need to fix resize when it's about to hit capacity later*
+
+### Binary Tree
+unlike above ones, I studied the codes from the others and chatGPT and haven't finished tho.
